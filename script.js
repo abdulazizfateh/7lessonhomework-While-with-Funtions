@@ -82,22 +82,52 @@
 
 // TASK 4 ||||||||||||||||||||||||||||||||||||||||||
 
-//NEED EXPLANATION IT DOES NOT WORK PROPERLY
+//NEED EXPLANATION
 
-// let a = 72;
+// let a = 27;
 
 // const findTheThreePowers = (num) => {
+//     let multiply = 1;
 //     let result;
-//     while (num >= 3){
-//         num -= 3
-//         if (num == 0){
-//             result = `${a} soni 3 sonining darajasi`;
-//         } else {
-//             result = `${a} soni 3 sonining darajasi emas`;
-//         }
+
+//     while (multiply < num) {
+//         multiply = multiply * 3;
+//     }
+//     if (multiply == num) {
+//         result = `${num} soni 3 sonining darajasi`;
+//     } else {
+//         result = `${num} soni 3 sonining darajasi emas`;
 //     }
 //     return result;
 // }
 
 // let fresult = findTheThreePowers(a);
+// console.log(fresult);
+
+
+
+
+
+// TASK 5 ||||||||||||||||||||||||||||||||||||||||||
+
+// let a = 32;
+
+// const findThePowerOfThree = (num) => {
+//     let count = 0;
+//     let multiply = 1;
+//     let result;
+//     while (multiply < num) {
+//         multiply *= 2;
+//         count++;
+//     }
+
+//     if (multiply == num) {
+//         result = `${num} soni 2 sonining ${count} chi darajasi`;
+//     } else {
+//         result = `${num} soni 2 sonining darajasi emas`;
+//     }
+//     return result;
+// }
+
+// let fresult = findThePowerOfThree(a);
 // console.log(fresult);
